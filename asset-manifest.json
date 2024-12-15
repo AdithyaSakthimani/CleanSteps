@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/CleanSteps/static/css/main.315eac90.css",
+    "main.js": "/CleanSteps/static/js/main.346b5f66.js",
+    "static/js/453.1f4fc30a.chunk.js": "/CleanSteps/static/js/453.1f4fc30a.chunk.js",
+    "static/media/sun.jpg": "/CleanSteps/static/media/sun.ec4c31ad3fc6063a607a.jpg",
+    "static/media/logo.svg": "/CleanSteps/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CleanSteps/index.html",
+    "main.315eac90.css.map": "/CleanSteps/static/css/main.315eac90.css.map",
+    "main.346b5f66.js.map": "/CleanSteps/static/js/main.346b5f66.js.map",
+    "453.1f4fc30a.chunk.js.map": "/CleanSteps/static/js/453.1f4fc30a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.315eac90.css",
+    "static/js/main.346b5f66.js"
+  ]
+}
