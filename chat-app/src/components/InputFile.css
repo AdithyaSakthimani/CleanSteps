@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow-x: hidden;
+  }
+  .input-optionsdark {
+    width: 100%;
+    background: #202123;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .input-optionslight {
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .input-options h1 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .input-options p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Map container */
+  #map {
+    height: 300px;
+    width: 95%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  /* Input styles */
+  input[type="number"],
+  input[type="text"] {
+    width: calc(96% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Buttons (if any in future updates) */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .country{
+    color:black;
+    font-weight: bold;
+  }
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .input-options {
+      padding: 15px;
+    }
+  
+    .input-options h1 {
+      font-size: 1.2rem;
+    }
+  
+    input[type="number"],
+    input[type="text"] {
+      font-size: 0.9rem;
+    }
+  }
+  
+  .leaflet-control-zoom {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .distinvalid{
+    border-color: red !important ; 
+  }
+  .diet{
+    width:40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  .diet:focus{
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  .dietinvalid{
+    width:40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-color: red;
+    border-radius: 8px;
+  }
+  .cont{
+    margin-bottom:10px
+  }
+  .input-optionslight h1{
+    font-size:1.5rem;
+  }
+  .input-optionsdark h1{
+    font-size:1.5rem;
+  }
