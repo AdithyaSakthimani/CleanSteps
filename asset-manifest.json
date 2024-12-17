@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/CleanSteps/static/css/main.315eac90.css",
-    "main.js": "/CleanSteps/static/js/main.346b5f66.js",
+    "main.css": "/CleanSteps/static/css/main.313a8c4b.css",
+    "main.js": "/CleanSteps/static/js/main.95f98643.js",
     "static/js/453.1f4fc30a.chunk.js": "/CleanSteps/static/js/453.1f4fc30a.chunk.js",
+    "static/media/1bc3ce2e-02d1-4631-8db6-acb70d966319.jpg": "/CleanSteps/static/media/1bc3ce2e-02d1-4631-8db6-acb70d966319.229a3644ca63b7da8014.jpg",
+    "static/media/73b98e27-27a0-4116-b464-9bf26a94c44b.jpg": "/CleanSteps/static/media/73b98e27-27a0-4116-b464-9bf26a94c44b.62ba97f7bbf21d447029.jpg",
+    "static/media/a273afe9-b90b-4f61-a86e-a60035dc8cee.jpg": "/CleanSteps/static/media/a273afe9-b90b-4f61-a86e-a60035dc8cee.7e8f181ffcbcef6125fc.jpg",
     "static/media/sun.jpg": "/CleanSteps/static/media/sun.ec4c31ad3fc6063a607a.jpg",
     "static/media/logo.svg": "/CleanSteps/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CleanSteps/index.html",
-    "main.315eac90.css.map": "/CleanSteps/static/css/main.315eac90.css.map",
-    "main.346b5f66.js.map": "/CleanSteps/static/js/main.346b5f66.js.map",
+    "main.313a8c4b.css.map": "/CleanSteps/static/css/main.313a8c4b.css.map",
+    "main.95f98643.js.map": "/CleanSteps/static/js/main.95f98643.js.map",
     "453.1f4fc30a.chunk.js.map": "/CleanSteps/static/js/453.1f4fc30a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.315eac90.css",
-    "static/js/main.346b5f66.js"
+    "static/css/main.313a8c4b.css",
+    "static/js/main.95f98643.js"
   ]
 }
