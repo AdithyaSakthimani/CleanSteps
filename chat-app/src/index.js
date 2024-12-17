@@ -9,13 +9,17 @@ import {
   Route,
   Routes,
 } from "react-router-dom";
+import Home from './Home';
+import Offset from './Offset';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <NoteState>
     <Router>
     <Routes>
-    <Route path="/" element={<App />} />
+    <Route path="/" element={<Home/>} />
+    <Route path="/footprint" element={<App/>} />
+    <Route path="/offset" element={<Offset/>} />
     </Routes>
     </Router>
     </NoteState>

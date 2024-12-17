@@ -15,8 +15,12 @@ const NoteState = (props) => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
     const [mode , setMode] = useState('light');
+    const [menuOpen, setMenuOpen] = useState(false);
+    const toggleMenu = () => {
+        setMenuOpen((prev) => !prev); 
+      };
     return (
-        <NoteContext.Provider value={{ dist , setDist , waste,setWaste , transport , setTransport , days , setDays,country , setCountry,click , setClicked , diet , setDiet , electricity , setElectricity,res , setRes , op,setOp , loading,setLoading , error,setError , mode , setMode }}>
+        <NoteContext.Provider value={{ dist , setDist , waste,setWaste , transport , setTransport , days , setDays,country , setCountry,click , setClicked , diet , setDiet , electricity , setElectricity,res , setRes , op,setOp , loading,setLoading , error,setError , mode , setMode , menuOpen , setMenuOpen , toggleMenu }}>
             {props.children}
         </NoteContext.Provider>
     );}
