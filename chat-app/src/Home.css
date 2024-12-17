@@ -1,0 +1,155 @@
+  .main{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+  }
+  .home-contentlight{
+    display: flex;
+    flex-direction: column;
+  }
+  .home-contentdark{
+    display: flex;
+    flex-direction: column;
+  }
+  .home-containerdark{
+    background-color: #202123;
+  }
+  .home-containerdark p{
+    color: #fff;
+  }
+  .flower-icon{
+    margin-left: 5px;
+    height: 700px;
+    width: 500px !important;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+  .image-container{
+    display: flex;
+    margin-right: 15px;
+    margin-top: 10px;
+    column-gap: 10px;
+  }
+  .heading-txt{
+    padding-top: 200px;
+  }
+  .heading{
+    font-size: 2.0rem;
+    color: rgb(13, 174, 232);
+  }
+  .intro-text{
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-self: center;
+  }
+  .features{
+    margin-top: 20px;
+    display: flex;
+  }
+  .main{
+    flex-direction: column;
+}
+.heading-txt{
+  padding-top: 20px;
+}
+.image-container{
+  align-self: center;
+}
+.features{
+  flex-direction: column;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.redFlower-icon:hover{
+  transform:scale(1.01) ;
+}
+.flower-icon:hover{
+  transform:scale(1.01) ;
+}
+@media  all and (max-width:965px) {
+    .features{
+      flex-direction: column;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+}
+@media all and (max-width:400px) {
+    .type-txt{
+         font-size: 1rem;
+    }
+ }
+ @media all and (max-width:550px){
+  .redFlower-icon{
+    display: none;
+  }
+  .flower-icon{
+    width: 95% !important;
+    margin-left: 10px;
+  }
+  .CO-head{
+    font-size: 1.7rem !important;
+  }
+  .CF-head{
+    font-size: 1.7rem !important;
+    align-self: center;
+    margin-right: 20px;
+  }
+ }
+.CO-head{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  color: rgb(13, 174, 232);
+}
+.CF-head{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  color: rgb(13, 174, 232);
+}
+.offset-button{
+  background-color: green;
+  margin-top: 10px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+.footprint-button{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: green;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footprint-button:hover , .offset-button:hover{
+  transform: scale(1.1);
+}
+.redFlower-icon{
+  margin-top: 10px;
+  height: 700px; 
+  width: 450px !important;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 2);
+}
+.foot-link{
+  text-decoration: none;
+}
+.off-link{
+  text-decoration: none;
+}
+.feature1{
+  text-align: center;
+}
+.feature2{
+  text-align: center;
+}
+.intro-text{
+  text-align: center;
+}
+
