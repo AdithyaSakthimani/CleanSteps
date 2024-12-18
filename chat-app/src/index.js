@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import Home from './Home';
 import Offset from './Offset';
+import ChatSpace from './ChatSpace';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ root.render(
     <Route path="/" element={<Home/>} />
     <Route path="/footprint" element={<App/>} />
     <Route path="/offset" element={<Offset/>} />
+    <Route path="/chatspace" element={<ChatSpace/>} />
     </Routes>
     </Router>
     </NoteState>

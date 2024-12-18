@@ -250,7 +250,8 @@ function Results() {
   let avgWorld = (20000 * 0.21) + (500* 0.21) + (15000 * worldAverage) + (dietFactors.NonVegetarian*3* 365) + 1200;
   avgWorld = Math.floor(avgWorld % 10);
     const resTxt = (res) => {
-    const rating = (10 - Math.floor(res % 10)) ;
+    let rating = 10 - Math.floor(res/ 1000);
+    rating = Math.max(1, Math.min(rating, 10));
     let emoji = '';
     if (rating >= 8) emoji = '😊';
     else if (rating >= 6) emoji = '🙂';

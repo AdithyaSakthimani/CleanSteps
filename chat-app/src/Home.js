@@ -45,6 +45,17 @@ function Home() {
       </button>
       </Link>
       </div>
+      <div className='feature3'>
+      <h2 className='CO-head'>Eco ChatRoom</h2>
+          <p>
+          an environment-related chat room which serves as a virtual space for individuals to connect, discuss, learn, and take action on environmental issues, aiming to make a positive impact on the world. It can be a valuable tool for both raising awareness and promoting tangible environmental change.
+          </p>
+          <Link to = '/chatspace' className='off-link' onClick={()=>window.scrollTo(0, 0)}>
+      <button className='offset-button'>
+        Learn About Offsetting
+      </button>
+      </Link>
+      </div>
       <div className='feature2'>
       <h2 className='CO-head'>Carbon offset</h2>
           <p>
@@ -52,9 +63,9 @@ function Home() {
           that reduce or capture greenhouse gases. Investing in carbon offset projects, such as reforestation 
           or renewable energy, helps balance your carbon emissions.
           </p>
-          <Link to = '/offset' className='off-link'>
+          <Link to = '/offset' className='off-link' onClick={()=>window.scrollTo(0, 0)}>
       <button className='offset-button'>
-        Learn About Offsetting
+        Connect with People
       </button>
       </Link>
       </div>
