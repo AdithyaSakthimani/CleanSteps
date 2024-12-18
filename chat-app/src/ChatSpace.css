@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.chat-containerlight {
+    background-color: white;
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow around container */
+}
+
+.chat-containerdark {
+    background-color: #202123;
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Slightly stronger shadow for dark mode */
+}
+
+.entry-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    padding: 10px;
+}
+
+.username-txt,
+.message-txt {
+    width: 75% !important;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 8px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border for inputs */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to input fields */
+}
+
+.submitbutton {
+    width: 35% !important;
+    align-self: center;
+    background-color: green;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for the button */
+    border: none; /* Remove default border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for button */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.submitbutton:hover {
+    background-color: darkgreen; /* Darker green on hover */
+}
+
+.chat-message {
+    margin: 10px 10px;
+    width: 50% !important;
+    padding: 10px;
+    border: 2px solid #ccc; /* Lighter border */
+    border-radius: 12px; /* Rounder corners */
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for messages */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth shadow effect */
+}
+
+.chat-message:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+}
+
+.chat-boxdark {
+    height: 500px;
+    background-image: url('./components/images/myback.png') !important;
+    overflow-y: auto;
+    border-radius: 12px; /* Rounded corners for chat box */
+}
+
+.chat-boxlight {
+    height: 500px;
+    background-image: url('./components/images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
+    overflow-y: auto;
+    border-radius: 12px; /* Rounded corners for chat box */
+}
+
+/* Additional Styling for Input Focus */
+input:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5); /* Green glow on focus */
+}

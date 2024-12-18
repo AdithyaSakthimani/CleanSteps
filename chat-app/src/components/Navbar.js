@@ -23,14 +23,26 @@ function Navbar() {
       </div>
       {menuOpen && (
           <div className={`dropdown-menu${mode}`}>
-            <Link to="/" className="dropdown-link" onClick={() => setMenuOpen(false)}>
+            <Link to="/" className="dropdown-link" onClick={() =>{
+               window.scrollTo(0, 0);
+               setMenuOpen(false);
+            } } >
               <h1 className='menu-item'>Home</h1>
             </Link>
-            <Link to="/footprint" className="dropdown-link" onClick={() => setMenuOpen(false)}>
+            <Link to="/footprint" className="dropdown-link" onClick={() => {
+              window.scrollTo(0, 0);
+              setMenuOpen(false)}}>
             <h1 className='menu-item'>Carbon Footprint Calculator</h1>
             </Link>
-            <Link to="/offset" className="dropdown-link" onClick={() => setMenuOpen(false)}>
+            <Link to="/offset" className="dropdown-link" onClick={() => {
+              window.scrollTo(0, 0);
+              setMenuOpen(false)}}>
             <h1 className='menu-item'>Carbon Offset </h1>
+            </Link>
+            <Link to="/chatspace" className="dropdown-link" onClick={() => {
+              window.scrollTo(0, 0);
+              setMenuOpen(false)}}>
+            <h1 className='menu-item'> Eco ChatRoom </h1>
             </Link>
           </div>
         )}
