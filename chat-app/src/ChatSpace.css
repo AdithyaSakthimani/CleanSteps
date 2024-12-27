@@ -70,15 +70,13 @@ html, body {
 .chat-boxdark {
     height: 500px;
     background-image: url('./components/images/myback.png') !important;
-    overflow-y: auto;
-    border-radius: 12px; /* Rounded corners for chat box */
+    overflow-y: auto; /* Rounded corners for chat box */
 }
 
 .chat-boxlight {
     height: 500px;
-    background-image: url('./components/images/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png');
-    overflow-y: auto;
-    border-radius: 12px; /* Rounded corners for chat box */
+    background-image: url('./components/images/my_backWhite.png');
+    overflow-y: auto; /* Rounded corners for chat box */
 }
 
 /* Additional Styling for Input Focus */

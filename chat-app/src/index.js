@@ -12,6 +12,7 @@ import {
 import Home from './Home';
 import Offset from './Offset';
 import ChatSpace from './ChatSpace';
+import WorldMap from './components/WorldMap';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

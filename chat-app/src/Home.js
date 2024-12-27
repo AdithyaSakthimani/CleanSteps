@@ -52,7 +52,7 @@ function Home() {
           </p>
           <Link to = '/chatspace' className='off-link' onClick={()=>window.scrollTo(0, 0)}>
       <button className='offset-button'>
-        Learn About Offsetting
+        Connect With People
       </button>
       </Link>
       </div>
@@ -65,7 +65,7 @@ function Home() {
           </p>
           <Link to = '/offset' className='off-link' onClick={()=>window.scrollTo(0, 0)}>
       <button className='offset-button'>
-        Connect with People
+        Learn About Offsetting
       </button>
       </Link>
       </div>

@@ -13,7 +13,7 @@ function ChatSpace() {
   useEffect(() => {
     const fetchMessages = async () => {
       try {
-        const response = await fetch("http://localhost:3002/chat-room");
+        const response = await fetch("http://localhost:3006/chat-room");
         const data = await response.json();
         setMessages(data); // Store the fetched messages in state
       } catch (error) {
@@ -28,7 +28,7 @@ function ChatSpace() {
     if (!username || !message) return alert("Please enter both username and message.");
 
     try {
-      const response = await fetch("http://localhost:3002/chat-room", {
+      const response = await fetch("http://localhost:3006/chat-room", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, message }),
