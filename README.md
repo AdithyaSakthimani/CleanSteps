@@ -24,6 +24,7 @@ Before you begin, make sure you have the following installed:
    npm install
    npm start
    cd backend
+   npm install 
    npm run dev
-  '''
+  
 
